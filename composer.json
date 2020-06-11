@@ -1,0 +1,24 @@
+{
+  "name": "linkorb/amplifier",
+  "description": "Amplifier: broadcast events",
+  "homepage": "http://www.github.com/linkorb/amplifier",
+  "keywords": ["amplifier", "events", "linkorb"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Joost Faassen",
+      "email": "j.faassen@linkorb.com",
+      "role": "Development"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "symfony/process": "^2.3 || ^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+        "Amplifier\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
